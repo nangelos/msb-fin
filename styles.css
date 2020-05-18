@@ -1,0 +1,65 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+}
+
+ul {
+  text-align: left;
+  margin-left: 30px;
+}
+
+li{
+  margin-bottom: 1em;
+}
+
+.wrapper1 {
+  text-align: center;
+}
+
+.wrapper2 {
+  display: inline-block;
+  width: 95%;
+  background: gray;
+  /* background-image: url("./photos-background/nyc2.jpg"); */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background: black;
+  color: white;
+  height: 30px;
+  align-items: center;
+  /* width: 100%; */
+  /* position: fixed; */
+  margin: auto 5px 10px 5px;
+  /* margin-bottom: 10px; */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.twocolumns {
+  width: 50%;
+  margin: 0px;
+}
+
+.headers {
+ text-emphasis: none;
+ font-size: 3em;
+}
