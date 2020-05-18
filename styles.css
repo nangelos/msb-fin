@@ -66,10 +66,20 @@ li{
  margin-bottom: 0px;
 }
 
+.recruit-left {
+  width: 40%;
+  background-color: rgba(27, 73, 181,.2)
+}
+
+.recruit-right {
+  width: 60%;
+  background-color: rgba(27, 73, 181,.8);
+}
+
 .prospective-right {
   text-align: left;
   width: 65%;
-  background-color: rgb(255, 255, 255, .5);
+  background-color: rgb(255, 255, 255, .6);
   color: rgb(27, 73, 181);
 }
 
