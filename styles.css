@@ -33,7 +33,7 @@ li{
 .wrapper2 {
   display: inline-block;
   width: 95%;
-  background: gray;
+  /* background: gray; */
 }
 
 .nav-wrapper {
@@ -101,6 +101,11 @@ li{
   display: flex;
   justify-content: space-evenly;
   margin: 10px 30px;
+  color: rgb(27, 73, 181)
+}
+
+.leader-row a {
+  color: rgb(27, 73, 181)
 }
 
 .picture {
@@ -121,6 +126,7 @@ li{
   justify-content: center;
   border-top: solid white 2px;
   border-bottom: solid white 2px;
+  background-color: rgb(27, 73, 181);
 }
 
 #copyright {
