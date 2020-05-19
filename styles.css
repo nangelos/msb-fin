@@ -34,7 +34,14 @@ li{
   display: inline-block;
   width: 95%;
   background: gray;
-  /* background-image: url("./photos-background/nyc2.jpg"); */
+}
+
+.nav-wrapper {
+  background-color: white;
+  width: 100%;
+  margin: 10px auto;
+  position: fixed;
+  margin: 1px;
 }
 
 .navbar {
@@ -43,10 +50,7 @@ li{
   background: black;
   height: 30px;
   align-items: center;
-  /* width: 100%; */
-  /* position: fixed; */
-  margin: auto 5px 10px 5px;
-  /* margin-bottom: 10px; */
+  margin: 3px 5px;
 }
 
 .row {
@@ -123,4 +127,10 @@ li{
   margin-block-start: 0em;
   margin-block-end: 0em;
   padding-left: 30px;
+}
+
+.hashspan {
+  margin-top: -50px;
+  padding-bottom: 50px;
+  display:block;
 }
