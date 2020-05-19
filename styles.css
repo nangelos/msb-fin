@@ -66,6 +66,15 @@ li{
  margin-bottom: 0px;
 }
 
+.month {
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.time-bullet{
+  margin-bottom: 0px;
+}
+
 .recruit-left {
   width: 40%;
   background-color: rgba(27, 73, 181,.2)
@@ -74,6 +83,7 @@ li{
 .recruit-right {
   width: 60%;
   background-color: rgba(27, 73, 181,.8);
+  display: flex;
 }
 
 .prospective-right {
