@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: white;
+  max-width: 1250px;
 }
 
 a {
@@ -42,6 +43,7 @@ li{
   margin: 10px auto;
   position: fixed;
   margin: 1px;
+  max-width: 1250px;
 }
 
 .navbar {
